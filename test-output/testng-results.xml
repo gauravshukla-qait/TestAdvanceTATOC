@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2800" started-at="2018-07-04T06:44:40Z" finished-at="2018-07-04T06:44:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2800" started-at="2018-07-04T06:44:40Z" finished-at="2018-07-04T06:44:42Z">
+      <class name="com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest@d2cc05a]" name="init" is-config="true" duration-ms="977" started-at="2018-07-04T12:14:40Z" finished-at="2018-07-04T12:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testHomePageAppears()[pri:0, instance:com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest@d2cc05a]" name="testHomePageAppears" duration-ms="1392" started-at="2018-07-04T12:14:41Z" finished-at="2018-07-04T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageAppears -->
+        <test-method status="PASS" signature="verifyAdvanceCourseOpens()[pri:0, instance:com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest@d2cc05a]" name="verifyAdvanceCourseOpens" duration-ms="157" started-at="2018-07-04T12:14:42Z" depends-on-methods="com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest.testHomePageAppears" finished-at="2018-07-04T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceCourseOpens -->
+        <test-method status="PASS" signature="checkHoverActionPerforms()[pri:0, instance:com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest@d2cc05a]" name="checkHoverActionPerforms" duration-ms="260" started-at="2018-07-04T12:14:42Z" depends-on-methods="com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest.verifyAdvanceCourseOpens" finished-at="2018-07-04T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHoverActionPerforms -->
+      </class> <!-- com.qait.automation.TestAdvanceTATOC.AdvanceTatocTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
